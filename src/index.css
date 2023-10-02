@@ -57,3 +57,12 @@ h3 {
   line-height: 32px;
   font-weight: 700;
 }
+
+.main {
+  position: relative;
+  margin-top: 64px;
+  margin-left: 280px;
+  padding: 40px;
+  width: calc(100%- 280px);
+  min-height: 100vh;
+}

@@ -12,11 +12,11 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: 'jadwal',
+        path: '',
         element: <Jadwal />,
       },
       {
-        path: 'orders',
+        path: '/orders',
         element: <Orders />,
       },
     ],
