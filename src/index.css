@@ -1,6 +1,43 @@
+:root {
+  --primary: #307fe2;
+  --on-primary: #ffffff;
+  --surface: #e9e9e9;
+  --background: #f1f5f9;
+
+  --text: #343434;
+  --faded-text: #929292;
+  --light-text: #4b5d6a;
+
+  --border-color: #d8dee4;
+  --light-border: #e5eaef;
+
+  --green: #0c8c62;
+  --green-bg: #e8f8f3;
+  --orange: #f97316;
+  --orange-bg: #fcf8e3;
+  --red: #f43f5e;
+  --red-bg: #f9e7eb;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Lato, sans-serif;
   font-size: 16px;
+  background: var(--background);
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 h1 {
