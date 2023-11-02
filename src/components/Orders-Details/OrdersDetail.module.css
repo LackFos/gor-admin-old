@@ -1,0 +1,78 @@
+.label {
+  position: relative;
+  display: flex;
+  padding: 24px;
+  padding-bottom: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+.deskripsiJam {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  display: flex;
+  justify-content: end;
+}
+.deskripsi {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+.faded {
+  font-size: 16px;
+  color: #929292;
+}
+.list {
+  border-top: 1px solid #d8dee4;
+  border-bottom: 1px solid #d8dee4;
+  padding: 16px 24px 16px 24px;
+}
+.item {
+  margin-top: 16px;
+  display: flex;
+}
+.itemTotal {
+  margin-top: 24px;
+  display: flex;
+}
+.title {
+  line-height: 32px;
+  font-size: 16px;
+  flex-grow: 1;
+}
+.titlejadwal {
+  color: var(--primary);
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: bold;
+  flex-grow: 1;
+}
+.results {
+  line-height: 32px;
+  font-size: 16px;
+}
+.resultsjadwal {
+  color: var(--primary);
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.total {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bolder;
+  flex-grow: 1;
+}
+.resultsTotal {
+  color: #307fe2;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: bolder;
+}

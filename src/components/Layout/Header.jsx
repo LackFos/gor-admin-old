@@ -1,9 +1,11 @@
-import '../styles/Header.css'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
     <header className='header'>
-      <div className='logo'>GOR KITA</div>
+      <NavLink className='logo' to=''>
+        GOR KITA
+      </NavLink>
       <div className='right'></div>
     </header>
   )

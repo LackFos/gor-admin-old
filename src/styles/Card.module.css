@@ -1,0 +1,179 @@
+.card {
+  width: 100%;
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+.label {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  z-index: 1;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.labelLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.subHeader {
+  line-height: 32px;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.content:not(:first-of-type) {
+  border-top: 1px solid var(--border-color);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 24px;
+  min-height: 64px;
+}
+
+.rowLeft {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 64px;
+}
+.rowLeftList {
+  display: flex;
+  /* align-items: center; */
+  width: 100%;
+  height: 100%;
+}
+
+.rowItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  gap: 16px;
+}
+.rowItemList {
+  display: flex;
+  align-items: center;
+  width: calc(100% / 4);
+  font-size: 16px;
+  /* color: #4B5D6A; */
+}
+.rowStatus {
+  display: inline-block;
+  height: fit-content;
+  line-height: 32px;
+  padding: 4px 16px 4px 16px;
+  border-radius: 8px;
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--green);
+  background-color:  var(--green-bg);
+}
+.rowFailed {
+  display: inline-block;
+  height: fit-content;
+  line-height: 32px;
+  padding: 4px 16px 4px 16px;
+  border-radius: 8px;
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: bold;
+  color:  var(--orange);
+  background-color:  var(--orange-bg);
+}
+
+.firstRow {
+  border-top: 0;
+}
+
+.sessions {
+  margin-bottom: 24px;
+}
+
+.summary {
+  padding: 24px 24px 0 24px;
+}
+
+.summary button {
+  margin-top: 16px;
+  width: 240px;
+  height: 56px;
+  font-size: 18px;
+}
+
+.form {
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+.formButton {
+  padding: 24px 24px 0 24px;
+}
+
+.formButton button {
+  width: 100%;
+}
+
+.imageInput {
+  position: relative;
+  width: 393px;
+  height: 240px;
+  align-items: center;
+  color: var(--faded-text);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px dashed var(--border-color);
+  background-color: var(--surface);
+}
+
+.imageInput input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.imageInput img {
+  width: 100%;
+  height: 100%;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  gap: 8px;
+  color: var(--light-text);
+}
+
+.backButton:hover {
+  color: var(--primary);
+}
+
+.backButton:hover svg {
+  stroke: var(--primary);
+}
+
+.bottom {
+  cursor: pointer;
+  padding: 8px 0;
+  color: var(--primary);
+}
+
+.editButton {
+  min-width: 120px;
+  max-width: 120px;
+}

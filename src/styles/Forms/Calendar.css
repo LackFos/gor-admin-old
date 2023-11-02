@@ -1,0 +1,93 @@
+/* React Calendar */
+.calendar-input.active .action {
+  background-color: var(--primary);
+}
+
+.calendar-input.active .action .icon path {
+  stroke: white;
+}
+
+.react-calendar {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  border-color: #cccccc;
+  padding: 16px;
+  background-color: #fbfbfb;
+}
+
+.react-calendar button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.react-calendar__navigation {
+  gap: 24px;
+}
+
+.react-calendar__navigation__label {
+  color: var(--text) !important;
+  background-color: transparent !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.react-calendar__month-view__weekdays__weekday,
+.react-calendar__month-view__days__day {
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 59px;
+  height: 59px;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  color: var(--light-text);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.react-calendar__month-view__days__day.faded {
+  color: var(--faded-text);
+}
+
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button {
+  display: none !important;
+}
+
+.react-calendar__month-view__weekdays,
+.react-calendar__month-view__days {
+  gap: 8px;
+}
+
+.react-calendar__tile--now {
+  color: var(--primary) !important;
+  background-color: var(--primary-bg) !important;
+}
+
+.react-calendar__month-view__days__day.react-calendar__tile--now:hover {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__tile--active {
+  color: white !important;
+  background-color: var(--primary) !important;
+  pointer-events: none;
+}
+
+.react-calendar__month-view__days__day.react-calendar__tile--active.faded {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__month-view__days__day.react-calendar__tile--active.react-calendar__tile--now:hover {
+  background-color: var(--primary);
+}

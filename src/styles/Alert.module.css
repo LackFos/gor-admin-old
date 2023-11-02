@@ -1,0 +1,48 @@
+.overlay {
+  position: fixed;
+  top: 72px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  gap: 24px;
+  color: white;
+  background-color: var(--dark-surface);
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.dismiss {
+  font-weight: 700;
+  color: white;
+  background-color: var(--primary);
+  box-shadow: 0 4px 6px -1px var(--primary-shadow),
+    0 2px 4px -2px var(--primary-shadow);
+}
+
+.dismiss:hover {
+  color: white;
+  background-color: var(--primary);
+  box-shadow: 0 10px 15px -3px var(--primary-shadow-hover),
+    0 4px 6px -4px var(--primary-shadow-hover);
+}
+
+.danger {
+  border: 1px solid var(--red);
+  color: var(--red);
+  background-color: var(--red-bg);
+}
+
+.danger .dismiss {
+  font-weight: 700;
+  color: white;
+  background-color: var(--red);
+  box-shadow: 0 4px 6px -1px var(--red-shadow), 0 2px 4px -2px var(--red-shadow);
+}
+
+.danger .dismiss:hover {
+  color: white;
+  background-color: var(--red);
+  box-shadow: 0 10px 15px -3px var(--red-shadow-hover),
+    0 4px 6px -4px var(--red-shadow-hover);
+}

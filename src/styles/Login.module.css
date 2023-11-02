@@ -1,0 +1,96 @@
+.containerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  width: 473px;
+  padding: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 12px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #343434;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #d8dee4;
+  border-radius: 12px;
+  padding-right: 16px;
+}
+.input {
+  flex-grow: 1;
+  width: 100%;
+  padding: 12px 16px 12px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #d8dee4;
+  border-radius: 12px;
+}
+.input::placeholder {
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+}
+.input-password {
+  position: relative;
+}
+
+.input-password input {
+  width: 100%;
+  padding: 12px 52px 12px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #d8dee4;
+  border-radius: 12px;
+}
+
+.input-password button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  top: 54%; /* Mengatur vertikal ke tengah */
+  right: 4%; /* Mengatur horizontal ke tepi kanan */
+  transform: translateY(-90%);
+}
+.input-password::placeholder {
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+}
+/* .showButton{
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-shrink: 0;
+} */
+.button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 100%;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  margin-top: 40px;
+  background-color: #307fe2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #115ebd;
+}

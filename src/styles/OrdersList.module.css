@@ -1,0 +1,91 @@
+.table {
+  border-collapse: collapse;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  z-index: 1;
+}
+.button {
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #d8dee4;
+  border-radius: 8px;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: var(--primary);
+}
+.button:hover .icon {
+  stroke: white;
+  transition: background-color 0.3s;
+}
+.icon {
+  stroke: black; /* Warna default stroke */
+  stroke-width: 1.5; /* Lebar stroke */
+  stroke-linecap: round; /* Jenis ujung stroke */
+  stroke-linejoin: round; /* Jenis sambungan stroke */
+}
+.explenation {
+  align-items: center;
+  text-align: left;
+  height: 64px;
+}
+.th {
+  font-size: 16px;
+  font-weight: bold;
+  width: 25%;
+}
+.thspace {
+  padding-right: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 258px;
+}
+.thpadding {
+  padding-left: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 25%;
+}
+/* .tbody{
+    /* border-top: 1px solid #D8DEE4; */
+
+.tr {
+  height: 64px;
+  /* border-bottom: 1PX solid #D8DEE4; */
+  border-top: 1px solid #d8dee4;
+}
+.item {
+  font-size: 16px;
+  color: #4b5d6a;
+}
+.itempadding {
+  padding-left: 24px;
+  font-size: 16px;
+  color: #4b5d6a;
+}
+.status {
+  display: inline-block;
+  height: fit-content;
+  line-height: 32px;
+  padding: 4px 16px 4px 16px;
+  border-radius: 8px;
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--green);
+  background-color: var(--green-bg);
+}
+.failed {
+  display: inline-block;
+  height: fit-content;
+  line-height: 32px;
+  padding: 4px 16px 4px 16px;
+  border-radius: 8px;
+  /* text-align: center; */
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--orange);
+  background-color: var(--orange-bg);
+}
